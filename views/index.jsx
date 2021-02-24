@@ -20,7 +20,7 @@ module.exports = function Index({ name, orders, page }) {
         </a>
 
         <a href={`/?page=${parseInt(page) + 1}`}>
-          <BaseButton label="Next"></BaseButton>
+          <BaseButton id="next" label="Next"></BaseButton>
         </a>
       </div>
     </MainLayout>
